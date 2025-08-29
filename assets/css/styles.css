@@ -80,6 +80,7 @@ section {
   border-image: linear-gradient(#3BA1CD, #1572B7);
   border-image-slice: 10;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 #course-content {
