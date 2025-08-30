@@ -2,6 +2,12 @@
 
 body {
   background-color: black;
+  background-image: url('../images/dio-logo.png');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 1 ;
+  height: 100vh;
 }
 
 h2 {
