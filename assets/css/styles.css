@@ -70,17 +70,19 @@ section {
 }
 
 .banner .banner-content button {
-  color: #31A8DD;
+  border-radius: 8px;
+  padding: 16px 32px;
   font-size: 1rem;
   font-weight: bold;
-  padding: 16px 32px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  background-color: transparent;
   border-image: linear-gradient(#3BA1CD, #1572B7);
   border-image-slice: 10;
   border-radius: 30px;
-  cursor: pointer;
+  background:transparent;
+  color:  #31A8DD;
+  text-decoration: none;
+  cursor: pointer;  
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.1) 0px 5px 6px;
 }
 
 #course-content {
@@ -112,8 +114,8 @@ section {
   background-size: cover;
   background-image: url("../images/woman-code.png");
   background-attachment: fixed;
-  border-top: 1px solid #33A8DB80;
-  border-bottom: 1px solid #33A8DB80;
+  border-top: 5px solid #33A8DB80;
+  border-bottom: 5px solid #33A8DB80;
   padding: 200px;
 }
 
@@ -138,7 +140,7 @@ footer {
   padding: 60px 0;
   text-align: center;
   background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
-  border-top: 1px solid #33A8DB80;
+  border-top: 5px solid #33A8DB80;
 }
 
 footer .dio-logo {
